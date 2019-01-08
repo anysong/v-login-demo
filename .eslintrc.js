@@ -1,4 +1,7 @@
 module.exports = {
+    "globals": {
+        "Vue": true
+    },
     "env": {
         "browser": true,
         "commonjs": true
@@ -11,19 +14,16 @@ module.exports = {
         "ecmaVersion": 5
     },
     "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
+        "indent": [], //缩进
         "linebreak-style": [
             "error",
             "unix"
         ],
-        "quotes": [
+        "quotes": [   //双引号
             "error",
-            "double"
+            ""
         ],
-        "semi": [
+        "semi": [     //分号
             "error",
             "always"
         ]
