@@ -5,7 +5,8 @@
 
 // import header from '../../../components/header'; //引入模块
 // import footer from '../../../components/footer'; //引入模块
-
+import app from './app';
+app();
 new Vue({
     "el": "#app",
     "data": {
