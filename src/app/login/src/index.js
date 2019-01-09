@@ -1,14 +1,17 @@
 
-import { key } from '../../../components/header/index.js';
-import './style.css';
-import myImg from './i/logo.jpeg';
+// import { key } from '../../../components/header/index.js';
+// import '../../../components/header/style.css';
+// import myImg from '../../../components/header/i/logo.jpeg';
 
-console.log('myImg', myImg);
+import header from '../../../components/header'; //引入模块
+// import footer from '../../../components/footer'; //引入模块
+
+console.log('header', header);
 new Vue({
     "el": "#app",
     "data": {
-        "hi": key,
-        "myImg": myImg
+        "hi": 'key',
+        "myImg": 'myImg'
     },
     "template": '<div><img v-bind:src="myImg">{{ hi }}</div>'
 })

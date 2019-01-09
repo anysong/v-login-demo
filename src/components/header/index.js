@@ -1,5 +1,4 @@
-var aa = () => {
-    console.log(222);
+
+export default {
+    aaa: 2222
 }
-var aa = 18
-export {aa as key}
