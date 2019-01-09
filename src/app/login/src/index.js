@@ -1,15 +1,9 @@
-import { key } from '../../../components/header/index.js';
-import {foo, num} from './test.js';
-console.log(num);
-console.log(foo());
 /**
  * 入口文件
  */
-console.log('dd', key);
-var cc = () => {
-    alert(1);
-}
-// cc();
+import { key } from '../../../components/header/index.js';
+import './style.css';
+
 new Vue({
     "el": "#app",
     "data": {
